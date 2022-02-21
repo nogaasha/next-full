@@ -1,0 +1,36 @@
+Arguments: 
+  /home/natalia/.nvm/versions/node/v16.0.0/bin/node /usr/bin/yarn create .
+
+PATH: 
+  /home/natalia/.nvm/versions/node/v16.0.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  16.0.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: Name should not start with ".", got "."
+      at parsePackageName (/usr/lib/node_modules/yarn/lib/cli.js:87705:11)
+      at coerceCreatePackageName (/usr/lib/node_modules/yarn/lib/cli.js:87722:20)
+      at Object.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:87628:33)
+      at Generator.next (<anonymous>)
+      at step (/usr/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/lib/node_modules/yarn/lib/cli.js:328:14
+      at new Promise (<anonymous>)
+      at new F (/usr/lib/node_modules/yarn/lib/cli.js:5301:28)
+      at Object.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:307:12)
+      at Object.run (/usr/lib/node_modules/yarn/lib/cli.js:87647:17)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
